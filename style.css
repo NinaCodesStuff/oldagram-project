@@ -1,0 +1,119 @@
+/* typography*/
+
+html, body {
+    font-family: "Source Sans 3", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.location {
+    font-size: 12px;
+}
+
+
+.likes, .caption, .name {
+    font-size: 13px;
+}
+
+
+.bold-text {
+    font-weight: 700;
+}
+
+
+/* formatting & spacing */
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.posts {
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.post-header {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 10px;
+}
+
+
+.likes {
+   margin-top: 0;
+}
+
+
+.caption {
+   margin-bottom: 50px;
+   
+}
+
+.likes, .caption {
+    margin-top: 0;
+}
+
+
+.likes, .caption, .logo, .post-header, .icons {
+    margin-left: 15px;
+}
+
+
+/* images  & icons */
+
+.logo {
+    width: 127px;
+    height: 33px;
+}
+
+
+.user-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 100px;
+}
+
+
+.per-avatar {
+    margin-right: 15px;
+    
+}
+
+.per-avatar, .icons {
+    margin-top: 15px;
+}
+
+.post-img {
+   width: 100%;
+}
+
+
+.icons {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+
+.icon-img {
+    width: 22px;
+    height: 22px;
+    margin-bottom: 3px;
+}
+
+
+.icon-img:hover {
+    opacity: 50%;
+}
+
+
+
