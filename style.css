@@ -29,9 +29,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #C6C6C6;
 }
-
 
 .posts {
     display: flex;
@@ -53,7 +54,6 @@ header {
 
 .caption {
    margin-bottom: 50px;
-   
 }
 
 .likes, .caption {
@@ -114,6 +114,5 @@ header {
 .icon-img:hover {
     opacity: 50%;
 }
-
 
 
