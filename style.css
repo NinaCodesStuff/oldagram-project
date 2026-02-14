@@ -111,8 +111,9 @@ header {
 }
 
 
-.icon-img:hover {
+.icon-img:hover, .icon-img:focus {
     opacity: 50%;
 }
+
 
 
